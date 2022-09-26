@@ -14,12 +14,12 @@ In this python program, I am planning to improve an existing algorithmic trading
 3. Actual returns vs. Strategy returns
 
 SVM Strategy Return VS Actual Returns
-(Images/SVM_Strategy_Return.png)
+![](Images/SVM_Strategy_Return.png)
 
 LR Strategy Return VS Actual Returns
-(Images/LR_Strategy_Return.png)
+![](Images/LR_Strategy_Return.png)
 
 LR Strategy Return VS SVM Strategy Returns
-(Images/Strategy_Comparison.png)
+![](Images/Strategy_Comparison.png)
 
 
