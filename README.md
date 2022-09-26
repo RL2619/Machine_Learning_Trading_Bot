@@ -11,20 +11,15 @@ In this python program, I am planning to improve an existing algorithmic trading
 
 2. Decreasing the SMA windows for the algorithm lower the returns for both strategies. Increase the SMA windows lowers the returns even more. So the best windows are the existing one, which is 8 for short window and 100 for long window.
 
-3. Choose the set of parameters that best improved the trading algorithm returns. Save a PNG image of the cumulative product of the actual returns vs. the strategy returns, and document your conclusion in your `README.md` file.
+3. Actual returns vs. Strategy returns
 
-#### Evaluate a New Machine Learning Classifier
+SVM Strategy Return VS Actual Returns
+(Images/SVM_Strategy_Return.png)
 
-In this section, you’ll use the original parameters that the starter code provided. But, you’ll apply them to the performance of a second machine learning model. To do so, complete the following steps:
+LR Strategy Return VS Actual Returns
+(Images/LR_Strategy_Return.png)
 
-1. Import a new classifier, such as `AdaBoost`, `DecisionTreeClassifier`, or `LogisticRegression`. (For the full list of classifiers, refer to the [Supervised learning page](https://scikit-learn.org/stable/supervised_learning.html) in the scikit-learn documentation.)
-
-2. Using the original training data as the baseline model, fit another model with the new classifier.
-
-3. Backtest the new model to evaluate its performance. Save a PNG image of the cumulative product of the actual returns vs. the strategy returns for this updated trading algorithm, and write your conclusions in your `README.md` file. Answer the following questions: Did this new model perform better or worse than the provided baseline model? Did this new model perform better or worse than your tuned trading algorithm?
-
-#### Create an Evaluation Report
-
-In the previous sections, you updated your `README.md` file with your conclusions. To accomplish this section, you need to add a summary evaluation report at the end of the `README.md` file. For this report, express your final conclusions and analysis. Support your findings by using the PNG images that you created.
+LR Strategy Return VS SVM Strategy Returns
+(Images/Strategy_Comparison.png)
 
 
